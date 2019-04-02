@@ -14,7 +14,7 @@ use alarm3d\comments\Module as CommentsModule;
 
 /**
  * Class Comments
- * @package ogheo\comments\widget
+ * @package alarm3d\comments\widget
  */
 class Comments extends \yii\base\Widget
 {
@@ -142,17 +142,17 @@ class Comments extends \yii\base\Widget
     /**
      * @var string
      */
-    public $commentsView = '@vendor/ogheo/yii2-comments/src/widget/views/comments';
+    public $commentsView = '@vendor/alarm3d/yii2-comments/src/widget/views/comments';
 
     /**
      * @var string
      */
-    public $commentView = '@vendor/ogheo/yii2-comments/src/widget/views/_comment';
+    public $commentView = '@vendor/alarm3d/yii2-comments/src/widget/views/_comment';
 
     /**
      * @var string
      */
-    public $formView = '@vendor/ogheo/yii2-comments/src/widget/views/_form';
+    public $formView = '@vendor/alarm3d/yii2-comments/src/widget/views/_form';
 
     /**
      * @inheritdoc

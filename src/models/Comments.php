@@ -78,7 +78,7 @@ class Comments extends \yii\db\ActiveRecord
     /**
      * @var string
      */
-    public static $commentsQueryModelClass = 'ogheo\comments\models\CommentsQuery';
+    public static $commentsQueryModelClass = 'alarm3d\comments\models\CommentsQuery';
 
     /**
      * @inheritdoc

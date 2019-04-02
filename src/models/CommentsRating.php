@@ -41,7 +41,7 @@ class CommentsRating extends \yii\db\ActiveRecord
     /**
      * @var string
      */
-    public static $commentRatingQueryModelClass = 'ogheo\comments\models\CommentsRatingQuery';
+    public static $commentRatingQueryModelClass = 'alarm3d\comments\models\CommentsRatingQuery';
 
     /**
      * @inheritdoc
