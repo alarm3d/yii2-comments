@@ -354,12 +354,7 @@ class Comments extends \yii\db\ActiveRecord
     {
         $this->children = $value;
     }
-    public function afterSave($insert, $changedAttributes){
-        parent::afterSave($insert, $changedAttributes);
-        if($insert) {
-            \common\components\Notification::notify(\common\components\Notification::KEY_NEW_MESSAGE, 1, $changedAttributes->model_key, 'success');
-        }//... тут ваш код
-    }
+	
     /**
      * @inheritdoc
      * @param bool $insert
